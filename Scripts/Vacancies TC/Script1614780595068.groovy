@@ -46,9 +46,9 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern
 import static org.apache.commons.lang3.StringUtils.join
 
-WebUI.openBrowser('https://www.google.com/')
+//WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
-String baseUrl = "https://www.google.com/"
+String baseUrl = "https://opensource-demo.orangehrmlive.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 selenium.open("https://opensource-demo.orangehrmlive.com/index.php/dashboard")
 selenium.click("//a[@id='menu_recruitment_viewRecruitmentModule']/b")
@@ -87,7 +87,7 @@ selenium.click("id=addJobVacancy_name")
 selenium.type("id=addJobVacancy_name", "Automation QA Engineer")
 selenium.click("id=addJobVacancy_hiringManager")
 selenium.type("id=addJobVacancy_hiringManager", "Odis Adalwin")
-selenium.click("//div[4]/ul/li[4]")
+//selenium.click("//div[4]/ul/li[4]")
 selenium.click("id=addJobVacancy_noOfPositions")
 selenium.type("id=addJobVacancy_noOfPositions", "5")
 selenium.click("id=addJobVacancy_description")

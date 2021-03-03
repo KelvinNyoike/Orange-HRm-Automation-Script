@@ -1,0 +1,150 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite-OrangeHRM,Chrome 88.0.4324.190,,,2021-03-03 17:42:14,2021-03-03 17:43:51,1m - 36.958s,ERROR
+,,,,,,,
+Test Cases/Login TC,Chrome 88.0.4324.190,Login to Orange HRM Web API,,2021-03-03 17:42:17,2021-03-03 17:42:37,19.811s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:19,2021-03-03 17:42:30,10.748s,PASSED
+driver = getWebDriver(),Chrome 88.0.4324.190,,,2021-03-03 17:42:30,2021-03-03 17:42:30,0.046s,PASSED
+"baseUrl = ""https://opensource-demo.orangehrmlive.com/""",Chrome 88.0.4324.190,,,2021-03-03 17:42:30,2021-03-03 17:42:30,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 88.0.4324.190,,,2021-03-03 17:42:30,2021-03-03 17:42:30,0.320s,PASSED
+"selenium.open(""https://opensource-demo.orangehrmlive.com/"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:30,2021-03-03 17:42:31,0.924s,PASSED
+"selenium.click(""//div[@id='divUsername']/span"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:31,2021-03-03 17:42:31,0.610s,PASSED
+"selenium.type(""id=txtUsername"", ""Admin"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:31,2021-03-03 17:42:32,0.209s,PASSED
+"selenium.click(""id=txtPassword"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:32,2021-03-03 17:42:32,0.182s,PASSED
+"selenium.type(""id=txtPassword"", ""admin123"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:32,2021-03-03 17:42:32,0.150s,PASSED
+"selenium.click(""id=btnLogin"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:32,2021-03-03 17:42:37,4.954s,PASSED
+,,,,,,,
+Test Cases/Emp List_Add Emp,Chrome 88.0.4324.190,View employee list and click on file of one employee and then creat a new employee file.,,2021-03-03 17:42:37,2021-03-03 17:43:00,22.908s,PASSED
+driver = getWebDriver(),Chrome 88.0.4324.190,,,2021-03-03 17:42:39,2021-03-03 17:42:39,0.001s,PASSED
+"baseUrl = ""https://opensource-demo.orangehrmlive.com/""",Chrome 88.0.4324.190,,,2021-03-03 17:42:39,2021-03-03 17:42:39,0.006s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 88.0.4324.190,,,2021-03-03 17:42:39,2021-03-03 17:42:39,0.119s,PASSED
+"selenium.open(""https://opensource-demo.orangehrmlive.com/index.php/dashboard"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:39,2021-03-03 17:42:40,0.857s,PASSED
+"selenium.click(""//a[@id='menu_pim_viewPimModule']/b"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:40,2021-03-03 17:42:43,3.646s,PASSED
+"selenium.click(""id=menu_pim_viewEmployeeList"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:43,2021-03-03 17:42:45,1.340s,PASSED
+"selenium.click(""link=0002"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:45,2021-03-03 17:42:45,0.207s,PASSED
+"selenium.click(""//a[@id='menu_pim_viewPimModule']/b"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:45,2021-03-03 17:42:47,2.318s,PASSED
+"selenium.click(""id=menu_pim_viewEmployeeList"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:47,2021-03-03 17:42:48,1.352s,PASSED
+"selenium.click(""id=btnAdd"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:48,2021-03-03 17:42:50,1.154s,PASSED
+"selenium.click(""id=firstName"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:50,2021-03-03 17:42:50,0.226s,PASSED
+"selenium.type(""id=firstName"", ""Kelvin"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:50,2021-03-03 17:42:50,0.162s,PASSED
+"selenium.type(""id=lastName"", ""Nyoiks"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:50,2021-03-03 17:42:50,0.151s,PASSED
+"selenium.click(""id=employeeId"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:50,2021-03-03 17:42:50,0.156s,PASSED
+"selenium.type(""id=employeeId"", ""1234"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:50,2021-03-03 17:42:50,0.121s,PASSED
+"selenium.click(""id=btnSave"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:50,2021-03-03 17:42:53,2.594s,PASSED
+"selenium.click(""id=personal_txtLicenNo"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:53,2021-03-03 17:42:53,0.195s,PASSED
+"selenium.click(""id=personal_txtLicenNo"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:53,2021-03-03 17:42:53,0.125s,PASSED
+"selenium.click(""id=btnSave"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:53,2021-03-03 17:42:53,0.163s,PASSED
+"selenium.click(""//*[@id=""personal_txtLicenNo""]"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:53,2021-03-03 17:42:54,0.609s,PASSED
+"selenium.type(""//*[@id=""personal_txtLicenNo""]"", ""123456"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:54,2021-03-03 17:42:54,0.344s,PASSED
+"selenium.click(""id=personal_txtEmpMiddleName"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:54,2021-03-03 17:42:55,0.166s,PASSED
+"selenium.type(""id=personal_txtEmpMiddleName"", ""Full"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:55,2021-03-03 17:42:55,0.119s,PASSED
+"selenium.click(""//form[@id='frmEmpPersonalDetails']/fieldset/ol[2]/li[4]/img"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:55,2021-03-03 17:42:55,0.442s,PASSED
+"selenium.click(""link=2"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:55,2021-03-03 17:42:55,0.184s,PASSED
+"selenium.click(""id=personal_cmbMarital"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:55,2021-03-03 17:42:56,0.281s,PASSED
+"selenium.select(""id=personal_cmbMarital"", ""label=Single"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:56,2021-03-03 17:42:56,0.256s,PASSED
+"selenium.click(""id=personal_cmbMarital"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:56,2021-03-03 17:42:56,0.177s,PASSED
+"selenium.click(""//form[@id='frmEmpPersonalDetails']/fieldset/ol[3]/li[4]/img"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:56,2021-03-03 17:42:56,0.429s,PASSED
+"selenium.click(""link=10"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:56,2021-03-03 17:42:57,0.157s,PASSED
+"selenium.click(""//*[@id=""personal_txtEmpNickName""]"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:57,2021-03-03 17:42:57,0.416s,PASSED
+"selenium.type(""//*[@id=""personal_txtEmpNickName""]"", ""Vinnie"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:57,2021-03-03 17:42:57,0.348s,PASSED
+"selenium.click(""id=personal_txtMilitarySer"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:57,2021-03-03 17:42:58,0.166s,PASSED
+"selenium.type(""id=personal_txtMilitarySer"", ""Yes"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:58,2021-03-03 17:42:58,0.121s,PASSED
+"selenium.click(""id=personal_chkSmokeFlag"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:58,2021-03-03 17:42:58,0.160s,PASSED
+"selenium.click(""id=btnSave"")",Chrome 88.0.4324.190,,,2021-03-03 17:42:58,2021-03-03 17:43:00,1.975s,PASSED
+,,,,,,,
+Test Cases/Vacancies TC,Chrome 88.0.4324.190,Check open vacancies. View one that resembles one you would like to update the create one.,,2021-03-03 17:43:00,2021-03-03 17:43:20,20.399s,ERROR
+driver = getWebDriver(),Chrome 88.0.4324.190,,,2021-03-03 17:43:01,2021-03-03 17:43:01,0.020s,PASSED
+"baseUrl = ""https://opensource-demo.orangehrmlive.com/""",Chrome 88.0.4324.190,,,2021-03-03 17:43:01,2021-03-03 17:43:01,0.043s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 88.0.4324.190,,,2021-03-03 17:43:01,2021-03-03 17:43:02,0.641s,PASSED
+"selenium.open(""https://opensource-demo.orangehrmlive.com/index.php/dashboard"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:02,2021-03-03 17:43:03,0.910s,PASSED
+"selenium.click(""//a[@id='menu_recruitment_viewRecruitmentModule']/b"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:03,2021-03-03 17:43:06,2.648s,PASSED
+"selenium.click(""id=menu_recruitment_viewJobVacancy"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:06,2021-03-03 17:43:07,1.178s,PASSED
+"selenium.click(""link=Senior QA Lead"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:07,2021-03-03 17:43:08,1.128s,PASSED
+"selenium.click(""id=btnBack"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:08,2021-03-03 17:43:09,0.867s,PASSED
+"selenium.click(""id=btnAdd"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:09,2021-03-03 17:43:10,0.762s,PASSED
+"selenium.click(""id=addJobVacancy_jobTitle"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:10,2021-03-03 17:43:10,0.216s,PASSED
+"selenium.select(""id=addJobVacancy_jobTitle"", ""label=QA Engineer"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:10,2021-03-03 17:43:10,0.214s,PASSED
+"selenium.click(""id=addJobVacancy_jobTitle"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:10,2021-03-03 17:43:10,0.152s,PASSED
+"selenium.click(""id=addJobVacancy_name"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:10,2021-03-03 17:43:10,0.142s,PASSED
+"selenium.type(""id=addJobVacancy_name"", ""Automation QA Engineer"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:10,2021-03-03 17:43:10,0.130s,PASSED
+"selenium.click(""id=addJobVacancy_noOfPositions"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:10,2021-03-03 17:43:11,0.155s,PASSED
+"selenium.type(""id=addJobVacancy_noOfPositions"", ""2"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:11,2021-03-03 17:43:11,0.116s,PASSED
+"selenium.click(""id=addJobVacancy_description"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:11,2021-03-03 17:43:11,0.147s,PASSED
+"selenium.type(""id=addJobVacancy_description"", ""We need an automation QA engineer with atleAST 2 YEARS EXPERIENCE IN AUTOMATING WEB APPS AND MOBILE"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:11,2021-03-03 17:43:11,0.668s,PASSED
+"selenium.click(""id=addJobVacancy_hiringManager"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:11,2021-03-03 17:43:12,0.169s,PASSED
+"selenium.type(""id=addJobVacancy_hiringManager"", ""Odis Adalwin"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:12,2021-03-03 17:43:12,0.102s,PASSED
+"selenium.click(""id=btnSave"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:12,2021-03-03 17:43:13,1.348s,PASSED
+"selenium.click(""id=btnBack"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:13,2021-03-03 17:43:14,0.857s,PASSED
+"selenium.click(""id=vacancySearch_jobTitle"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:14,2021-03-03 17:43:14,0.171s,PASSED
+"selenium.select(""id=vacancySearch_jobTitle"", ""label=QA Engineer"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:14,2021-03-03 17:43:14,0.226s,PASSED
+"selenium.click(""id=vacancySearch_jobTitle"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:14,2021-03-03 17:43:15,0.190s,PASSED
+"selenium.click(""id=vacancySearch_jobVacancy"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:15,2021-03-03 17:43:15,0.180s,PASSED
+"selenium.select(""id=vacancySearch_jobVacancy"", ""label=Automation QA Engineer"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:15,2021-03-03 17:43:15,0.191s,PASSED
+"selenium.click(""id=vacancySearch_jobVacancy"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:15,2021-03-03 17:43:15,0.137s,PASSED
+"selenium.click(""id=btnSrch"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:15,2021-03-03 17:43:16,0.849s,PASSED
+"selenium.click(""id=ohrmList_chkSelectAll"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:16,2021-03-03 17:43:16,0.197s,PASSED
+"selenium.click(""id=btnDelete"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:16,2021-03-03 17:43:16,0.176s,PASSED
+"selenium.click(""id=dialogDeleteBtn"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:16,2021-03-03 17:43:18,1.301s,PASSED
+"selenium.click(""id=btnAdd"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:18,2021-03-03 17:43:18,0.891s,PASSED
+"selenium.click(""id=addJobVacancy_jobTitle"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:18,2021-03-03 17:43:19,0.190s,PASSED
+"selenium.select(""id=addJobVacancy_jobTitle"", ""label=QA Engineer"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:19,2021-03-03 17:43:19,0.217s,PASSED
+"selenium.click(""id=addJobVacancy_jobTitle"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:19,2021-03-03 17:43:19,0.271s,PASSED
+"selenium.click(""id=addJobVacancy_name"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:19,2021-03-03 17:43:19,0.212s,PASSED
+"selenium.type(""id=addJobVacancy_name"", ""Automation QA Engineer"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:19,2021-03-03 17:43:19,0.126s,PASSED
+"selenium.click(""id=addJobVacancy_hiringManager"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:19,2021-03-03 17:43:20,0.187s,PASSED
+"selenium.type(""id=addJobVacancy_hiringManager"", ""Odis Adalwin"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:20,2021-03-03 17:43:20,0.124s,PASSED
+"selenium.click(""//div[4]/ul/li[4]"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:20,2021-03-03 17:43:20,0.383s,PASSED
+,,,,,,,
+Test Cases/Leave-assign,Chrome 88.0.4324.190,Add a new entitlement leve to group of employees and then give one employee a leave and confirm its done in leave list.,,2021-03-03 17:43:20,2021-03-03 17:43:47,26.273s,PASSED
+driver = getWebDriver(),Chrome 88.0.4324.190,,,2021-03-03 17:43:22,2021-03-03 17:43:22,0.002s,PASSED
+"baseUrl = ""https://opensource-demo.orangehrmlive.com/""",Chrome 88.0.4324.190,,,2021-03-03 17:43:22,2021-03-03 17:43:22,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 88.0.4324.190,,,2021-03-03 17:43:22,2021-03-03 17:43:22,0.036s,PASSED
+"selenium.open(""https://opensource-demo.orangehrmlive.com/index.php/dashboard"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:22,2021-03-03 17:43:22,0.801s,PASSED
+"selenium.click(""//a[@id='menu_leave_viewLeaveModule']/b"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:22,2021-03-03 17:43:26,3.349s,PASSED
+"selenium.click(""id=menu_leave_Entitlements"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:26,2021-03-03 17:43:26,0.186s,PASSED
+"selenium.click(""id=menu_leave_addLeaveEntitlement"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:26,2021-03-03 17:43:27,1.137s,PASSED
+"selenium.click(""id=entitlements_filters_bulk_assign"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:27,2021-03-03 17:43:27,0.178s,PASSED
+"selenium.click(""id=entitlements_filters_location"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:27,2021-03-03 17:43:28,0.227s,PASSED
+"selenium.select(""id=entitlements_filters_location"", ""label=regexp:\s+Canadian Regional HQ"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:28,2021-03-03 17:43:28,0.233s,PASSED
+"selenium.click(""id=entitlements_filters_location"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:28,2021-03-03 17:43:28,0.250s,PASSED
+"selenium.click(""id=entitlements_filters_subunit"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:28,2021-03-03 17:43:28,0.262s,PASSED
+"selenium.select(""id=entitlements_filters_subunit"", ""label=Engineering"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:28,2021-03-03 17:43:29,0.226s,PASSED
+"selenium.click(""id=entitlements_filters_subunit"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:29,2021-03-03 17:43:29,0.151s,PASSED
+"selenium.click(""id=entitlements_leave_type"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:29,2021-03-03 17:43:29,0.160s,PASSED
+"selenium.select(""id=entitlements_leave_type"", ""label=US - Vacation"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:29,2021-03-03 17:43:29,0.264s,PASSED
+"selenium.click(""id=entitlements_leave_type"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:29,2021-03-03 17:43:29,0.173s,PASSED
+"selenium.click(""id=period"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:29,2021-03-03 17:43:29,0.156s,PASSED
+"selenium.click(""id=period"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:29,2021-03-03 17:43:30,0.147s,PASSED
+"selenium.click(""id=entitlements_entitlement"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:30,2021-03-03 17:43:30,0.164s,PASSED
+"selenium.type(""id=entitlements_entitlement"", ""12"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:30,2021-03-03 17:43:30,0.098s,PASSED
+"selenium.click(""id=entitlements_entitlement"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:30,2021-03-03 17:43:30,0.117s,PASSED
+"selenium.click(""id=btnSave"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:30,2021-03-03 17:43:30,0.218s,PASSED
+"selenium.click(""//*[@id=""dialogConfirmBtn""]"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:30,2021-03-03 17:43:33,2.410s,PASSED
+"selenium.click(""id=menu_leave_assignLeave"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:33,2021-03-03 17:43:34,1.558s,PASSED
+"selenium.click(""id=assignleave_txtEmployee_empName"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:34,2021-03-03 17:43:35,0.242s,PASSED
+"selenium.type(""id=assignleave_txtEmployee_empName"", ""Lisa Andrews"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:35,2021-03-03 17:43:35,0.142s,PASSED
+"selenium.click(""id=assignleave_txtLeaveType"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:35,2021-03-03 17:43:35,0.169s,PASSED
+"selenium.select(""id=assignleave_txtLeaveType"", ""label=US - Vacation"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:35,2021-03-03 17:43:35,0.186s,PASSED
+"selenium.click(""id=assignleave_txtLeaveType"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:35,2021-03-03 17:43:35,0.154s,PASSED
+"selenium.click(""//form[@id='frmLeaveApply']/fieldset/ol/li[4]/img"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:35,2021-03-03 17:43:36,0.907s,PASSED
+"selenium.click(""link=8"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:36,2021-03-03 17:43:36,0.184s,PASSED
+"selenium.click(""//form[@id='frmLeaveApply']/fieldset/ol/li[5]/img"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:36,2021-03-03 17:43:37,1.114s,PASSED
+"selenium.click(""link=12"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:37,2021-03-03 17:43:38,0.173s,PASSED
+"selenium.click(""id=assignleave_txtComment"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:38,2021-03-03 17:43:38,0.284s,PASSED
+"selenium.type(""id=assignleave_txtComment"", ""Enjoy your vacation Lisa"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:38,2021-03-03 17:43:38,0.283s,PASSED
+"selenium.click(""id=assignBtn"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:38,2021-03-03 17:43:40,1.425s,PASSED
+"selenium.click(""//a[@id='menu_leave_viewLeaveModule']/b"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:40,2021-03-03 17:43:42,2.739s,PASSED
+"selenium.click(""id=menu_leave_viewLeaveList"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:42,2021-03-03 17:43:43,1.000s,PASSED
+"selenium.click(""id=leaveList_chkSearchFilter_checkboxgroup_allcheck"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:43,2021-03-03 17:43:43,0.164s,PASSED
+"selenium.click(""id=leaveList_txtEmployee_empName"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:43,2021-03-03 17:43:44,0.184s,PASSED
+"selenium.type(""id=leaveList_txtEmployee_empName"", ""Lisa Andrews"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:44,2021-03-03 17:43:44,0.144s,PASSED
+"selenium.click(""//form[@id='frmFilterLeave']/fieldset"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:44,2021-03-03 17:43:44,0.475s,PASSED
+"selenium.click(""id=btnSearch"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:44,2021-03-03 17:43:46,1.280s,PASSED
+"selenium.click(""id=btnReset"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:46,2021-03-03 17:43:47,0.955s,PASSED
+,,,,,,,
+Test Cases/Log Out TC,Chrome 88.0.4324.190,Log Out of Orange HRM web API Test case,,2021-03-03 17:43:47,2021-03-03 17:43:51,4.889s,PASSED
+driver = getWebDriver(),Chrome 88.0.4324.190,,,2021-03-03 17:43:48,2021-03-03 17:43:48,0.001s,PASSED
+"baseUrl = ""https://opensource-demo.orangehrmlive.com/""",Chrome 88.0.4324.190,,,2021-03-03 17:43:48,2021-03-03 17:43:48,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 88.0.4324.190,,,2021-03-03 17:43:48,2021-03-03 17:43:48,0.045s,PASSED
+"selenium.open(""https://opensource-demo.orangehrmlive.com/index.php/dashboard"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:48,2021-03-03 17:43:49,0.722s,PASSED
+"selenium.click(""//*[@id=""welcome""]"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:49,2021-03-03 17:43:50,1.065s,PASSED
+"selenium.click(""//*[@id=""welcome-menu""]/ul/li[2]/a"")",Chrome 88.0.4324.190,,,2021-03-03 17:43:50,2021-03-03 17:43:51,1.815s,PASSED

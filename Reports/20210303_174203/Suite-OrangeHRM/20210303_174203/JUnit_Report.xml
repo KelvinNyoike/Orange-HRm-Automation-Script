@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite-OrangeHRM" time="98.922" tests="5" failures="0" skips="0" errors="1">
+   <testsuite name="Suite-OrangeHRM" tests="5" failures="0" errors="1" time="98.922" skips="0" timestamp="2021-03-03 17:42:14" hostname="ngeth - DESKTOP-AQB8O6Q" id="Test Suites/Suite-OrangeHRM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ngeth\\git\\Orange-HRm-Automation-Script\\Reports\\20210303_174203\\Suite-OrangeHRM\\20210303_174203"/>
+         <property name="logFiles" value="C:\\Users\\ngeth\\git\\Orange-HRm-Automation-Script\\Reports\\20210303_174203\\Suite-OrangeHRM\\20210303_174203\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ngeth - DESKTOP-AQB8O6Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.190"/>
+         <property name="hostAddress" value="192.168.226.2"/>
+         <property name="sessionId" value="f699220cc7fe4d04ecc8cf13f86d14e3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login TC" time="19.811" classname="Test Cases/Login TC" status="PASSED">
+         <system-out><![CDATA[2021-03-03 17:42:17 - [TEST_CASE][PASSED] - Test Cases/Login TC: Test Cases/Login TC
+
+2021-03-03 17:42:19 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2021-03-03 17:42:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-03 17:42:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-03 17:42:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2021-03-03 17:42:30 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-03-03 17:42:30 - [TEST_STEP][PASSED] - baseUrl = "https://opensource-demo.orangehrmlive.com/": null
+
+2021-03-03 17:42:30 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2021-03-03 17:42:30 - [TEST_STEP][PASSED] - selenium.open("https://opensource-demo.orangehrmlive.com/"): null
+
+2021-03-03 17:42:31 - [TEST_STEP][PASSED] - selenium.click("//div[@id='divUsername']/span"): null
+
+2021-03-03 17:42:31 - [TEST_STEP][PASSED] - selenium.type("id=txtUsername", "Admin"): null
+
+2021-03-03 17:42:32 - [TEST_STEP][PASSED] - selenium.click("id=txtPassword"): null
+
+2021-03-03 17:42:32 - [TEST_STEP][PASSED] - selenium.type("id=txtPassword", "admin123"): null
+
+2021-03-03 17:42:32 - [TEST_STEP][PASSED] - selenium.click("id=btnLogin"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Emp List_Add Emp" time="22.908" classname="Test Cases/Emp List_Add Emp" status="PASSED">
+         <system-out><![CDATA[2021-03-03 17:42:37 - [TEST_CASE][PASSED] - Test Cases/Emp List_Add Emp: Test Cases/Emp List_Add Emp
+
+2021-03-03 17:42:39 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-03-03 17:42:39 - [TEST_STEP][PASSED] - baseUrl = "https://opensource-demo.orangehrmlive.com/": null
+
+2021-03-03 17:42:39 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2021-03-03 17:42:39 - [TEST_STEP][PASSED] - selenium.open("https://opensource-demo.orangehrmlive.com/index.php/dashboard"): null
+
+2021-03-03 17:42:40 - [TEST_STEP][PASSED] - selenium.click("//a[@id='menu_pim_viewPimModule']/b"): null
+
+2021-03-03 17:42:43 - [TEST_STEP][PASSED] - selenium.click("id=menu_pim_viewEmployeeList"): null
+
+2021-03-03 17:42:45 - [TEST_STEP][PASSED] - selenium.click("link=0002"): null
+
+2021-03-03 17:42:45 - [TEST_STEP][PASSED] - selenium.click("//a[@id='menu_pim_viewPimModule']/b"): null
+
+2021-03-03 17:42:47 - [TEST_STEP][PASSED] - selenium.click("id=menu_pim_viewEmployeeList"): null
+
+2021-03-03 17:42:48 - [TEST_STEP][PASSED] - selenium.click("id=btnAdd"): null
+
+2021-03-03 17:42:50 - [TEST_STEP][PASSED] - selenium.click("id=firstName"): null
+
+2021-03-03 17:42:50 - [TEST_STEP][PASSED] - selenium.type("id=firstName", "Kelvin"): null
+
+2021-03-03 17:42:50 - [TEST_STEP][PASSED] - selenium.type("id=lastName", "Nyoiks"): null
+
+2021-03-03 17:42:50 - [TEST_STEP][PASSED] - selenium.click("id=employeeId"): null
+
+2021-03-03 17:42:50 - [TEST_STEP][PASSED] - selenium.type("id=employeeId", "1234"): null
+
+2021-03-03 17:42:50 - [TEST_STEP][PASSED] - selenium.click("id=btnSave"): null
+
+2021-03-03 17:42:53 - [TEST_STEP][PASSED] - selenium.click("id=personal_txtLicenNo"): null
+
+2021-03-03 17:42:53 - [TEST_STEP][PASSED] - selenium.click("id=personal_txtLicenNo"): null
+
+2021-03-03 17:42:53 - [TEST_STEP][PASSED] - selenium.click("id=btnSave"): null
+
+2021-03-03 17:42:53 - [TEST_STEP][PASSED] - selenium.click("//*[@id="personal_txtLicenNo"]"): null
+
+2021-03-03 17:42:54 - [TEST_STEP][PASSED] - selenium.type("//*[@id="personal_txtLicenNo"]", "123456"): null
+
+2021-03-03 17:42:54 - [TEST_STEP][PASSED] - selenium.click("id=personal_txtEmpMiddleName"): null
+
+2021-03-03 17:42:55 - [TEST_STEP][PASSED] - selenium.type("id=personal_txtEmpMiddleName", "Full"): null
+
+2021-03-03 17:42:55 - [TEST_STEP][PASSED] - selenium.click("//form[@id='frmEmpPersonalDetails']/fieldset/ol[2]/li[4]/img"): null
+
+2021-03-03 17:42:55 - [TEST_STEP][PASSED] - selenium.click("link=2"): null
+
+2021-03-03 17:42:55 - [TEST_STEP][PASSED] - selenium.click("id=personal_cmbMarital"): null
+
+2021-03-03 17:42:56 - [TEST_STEP][PASSED] - selenium.select("id=personal_cmbMarital", "label=Single"): null
+
+2021-03-03 17:42:56 - [TEST_STEP][PASSED] - selenium.click("id=personal_cmbMarital"): null
+
+2021-03-03 17:42:56 - [TEST_STEP][PASSED] - selenium.click("//form[@id='frmEmpPersonalDetails']/fieldset/ol[3]/li[4]/img"): null
+
+2021-03-03 17:42:56 - [TEST_STEP][PASSED] - selenium.click("link=10"): null
+
+2021-03-03 17:42:57 - [TEST_STEP][PASSED] - selenium.click("//*[@id="personal_txtEmpNickName"]"): null
+
+2021-03-03 17:42:57 - [TEST_STEP][PASSED] - selenium.type("//*[@id="personal_txtEmpNickName"]", "Vinnie"): null
+
+2021-03-03 17:42:57 - [TEST_STEP][PASSED] - selenium.click("id=personal_txtMilitarySer"): null
+
+2021-03-03 17:42:58 - [TEST_STEP][PASSED] - selenium.type("id=personal_txtMilitarySer", "Yes"): null
+
+2021-03-03 17:42:58 - [TEST_STEP][PASSED] - selenium.click("id=personal_chkSmokeFlag"): null
+
+2021-03-03 17:42:58 - [TEST_STEP][PASSED] - selenium.click("id=btnSave"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Vacancies TC" time="20.399" classname="Test Cases/Vacancies TC" status="ERROR">
+         <error type="ERROR" message="Test Cases/Vacancies TC FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //div[4]/ul/li[4] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Vacancies TC.run(Vacancies TC:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614782523900.run(TempTestSuite1614782523900.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //div[4]/ul/li[4]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-AQB8O6Q', ip: '192.168.226.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1614780595068.run(Script1614780595068.groovy:90)
+	... 13 more
+"/>
+         <system-out><![CDATA[2021-03-03 17:43:00 - [TEST_CASE][ERROR] - Test Cases/Vacancies TC: Test Cases/Vacancies TC FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //div[4]/ul/li[4] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Vacancies TC.run(Vacancies TC:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614782523900.run(TempTestSuite1614782523900.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //div[4]/ul/li[4]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-AQB8O6Q', ip: '192.168.226.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1614780595068.run(Script1614780595068.groovy:90)
+	... 13 more
+
+
+2021-03-03 17:43:01 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-03-03 17:43:01 - [TEST_STEP][PASSED] - baseUrl = "https://opensource-demo.orangehrmlive.com/": null
+
+2021-03-03 17:43:01 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2021-03-03 17:43:02 - [TEST_STEP][PASSED] - selenium.open("https://opensource-demo.orangehrmlive.com/index.php/dashboard"): null
+
+2021-03-03 17:43:03 - [TEST_STEP][PASSED] - selenium.click("//a[@id='menu_recruitment_viewRecruitmentModule']/b"): null
+
+2021-03-03 17:43:06 - [TEST_STEP][PASSED] - selenium.click("id=menu_recruitment_viewJobVacancy"): null
+
+2021-03-03 17:43:07 - [TEST_STEP][PASSED] - selenium.click("link=Senior QA Lead"): null
+
+2021-03-03 17:43:08 - [TEST_STEP][PASSED] - selenium.click("id=btnBack"): null
+
+2021-03-03 17:43:09 - [TEST_STEP][PASSED] - selenium.click("id=btnAdd"): null
+
+2021-03-03 17:43:10 - [TEST_STEP][PASSED] - selenium.click("id=addJobVacancy_jobTitle"): null
+
+2021-03-03 17:43:10 - [TEST_STEP][PASSED] - selenium.select("id=addJobVacancy_jobTitle", "label=QA Engineer"): null
+
+2021-03-03 17:43:10 - [TEST_STEP][PASSED] - selenium.click("id=addJobVacancy_jobTitle"): null
+
+2021-03-03 17:43:10 - [TEST_STEP][PASSED] - selenium.click("id=addJobVacancy_name"): null
+
+2021-03-03 17:43:10 - [TEST_STEP][PASSED] - selenium.type("id=addJobVacancy_name", "Automation QA Engineer"): null
+
+2021-03-03 17:43:10 - [TEST_STEP][PASSED] - selenium.click("id=addJobVacancy_noOfPositions"): null
+
+2021-03-03 17:43:11 - [TEST_STEP][PASSED] - selenium.type("id=addJobVacancy_noOfPositions", "2"): null
+
+2021-03-03 17:43:11 - [TEST_STEP][PASSED] - selenium.click("id=addJobVacancy_description"): null
+
+2021-03-03 17:43:11 - [TEST_STEP][PASSED] - selenium.type("id=addJobVacancy_description", "We need an automation QA engineer with atleAST 2 YEARS EXPERIENCE IN AUTOMATING WEB APPS AND MOBILE"): null
+
+2021-03-03 17:43:11 - [TEST_STEP][PASSED] - selenium.click("id=addJobVacancy_hiringManager"): null
+
+2021-03-03 17:43:12 - [TEST_STEP][PASSED] - selenium.type("id=addJobVacancy_hiringManager", "Odis Adalwin"): null
+
+2021-03-03 17:43:12 - [TEST_STEP][PASSED] - selenium.click("id=btnSave"): null
+
+2021-03-03 17:43:13 - [TEST_STEP][PASSED] - selenium.click("id=btnBack"): null
+
+2021-03-03 17:43:14 - [TEST_STEP][PASSED] - selenium.click("id=vacancySearch_jobTitle"): null
+
+2021-03-03 17:43:14 - [TEST_STEP][PASSED] - selenium.select("id=vacancySearch_jobTitle", "label=QA Engineer"): null
+
+2021-03-03 17:43:14 - [TEST_STEP][PASSED] - selenium.click("id=vacancySearch_jobTitle"): null
+
+2021-03-03 17:43:15 - [TEST_STEP][PASSED] - selenium.click("id=vacancySearch_jobVacancy"): null
+
+2021-03-03 17:43:15 - [TEST_STEP][PASSED] - selenium.select("id=vacancySearch_jobVacancy", "label=Automation QA Engineer"): null
+
+2021-03-03 17:43:15 - [TEST_STEP][PASSED] - selenium.click("id=vacancySearch_jobVacancy"): null
+
+2021-03-03 17:43:15 - [TEST_STEP][PASSED] - selenium.click("id=btnSrch"): null
+
+2021-03-03 17:43:16 - [TEST_STEP][PASSED] - selenium.click("id=ohrmList_chkSelectAll"): null
+
+2021-03-03 17:43:16 - [TEST_STEP][PASSED] - selenium.click("id=btnDelete"): null
+
+2021-03-03 17:43:16 - [TEST_STEP][PASSED] - selenium.click("id=dialogDeleteBtn"): null
+
+2021-03-03 17:43:18 - [TEST_STEP][PASSED] - selenium.click("id=btnAdd"): null
+
+2021-03-03 17:43:18 - [TEST_STEP][PASSED] - selenium.click("id=addJobVacancy_jobTitle"): null
+
+2021-03-03 17:43:19 - [TEST_STEP][PASSED] - selenium.select("id=addJobVacancy_jobTitle", "label=QA Engineer"): null
+
+2021-03-03 17:43:19 - [TEST_STEP][PASSED] - selenium.click("id=addJobVacancy_jobTitle"): null
+
+2021-03-03 17:43:19 - [TEST_STEP][PASSED] - selenium.click("id=addJobVacancy_name"): null
+
+2021-03-03 17:43:19 - [TEST_STEP][PASSED] - selenium.type("id=addJobVacancy_name", "Automation QA Engineer"): null
+
+2021-03-03 17:43:19 - [TEST_STEP][PASSED] - selenium.click("id=addJobVacancy_hiringManager"): null
+
+2021-03-03 17:43:20 - [TEST_STEP][PASSED] - selenium.type("id=addJobVacancy_hiringManager", "Odis Adalwin"): null
+
+2021-03-03 17:43:20 - [TEST_STEP][PASSED] - selenium.click("//div[4]/ul/li[4]"): null]]></system-out>
+         <system-err><![CDATA[2021-03-03 17:43:00 - [TEST_CASE][ERROR] - Test Cases/Vacancies TC: Test Cases/Vacancies TC FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //div[4]/ul/li[4] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Vacancies TC.run(Vacancies TC:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614782523900.run(TempTestSuite1614782523900.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //div[4]/ul/li[4]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-AQB8O6Q', ip: '192.168.226.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1614780595068.run(Script1614780595068.groovy:90)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Leave-assign" time="26.273" classname="Test Cases/Leave-assign" status="PASSED">
+         <system-out><![CDATA[2021-03-03 17:43:20 - [TEST_CASE][PASSED] - Test Cases/Leave-assign: Test Cases/Leave-assign
+
+2021-03-03 17:43:22 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-03-03 17:43:22 - [TEST_STEP][PASSED] - baseUrl = "https://opensource-demo.orangehrmlive.com/": null
+
+2021-03-03 17:43:22 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2021-03-03 17:43:22 - [TEST_STEP][PASSED] - selenium.open("https://opensource-demo.orangehrmlive.com/index.php/dashboard"): null
+
+2021-03-03 17:43:22 - [TEST_STEP][PASSED] - selenium.click("//a[@id='menu_leave_viewLeaveModule']/b"): null
+
+2021-03-03 17:43:26 - [TEST_STEP][PASSED] - selenium.click("id=menu_leave_Entitlements"): null
+
+2021-03-03 17:43:26 - [TEST_STEP][PASSED] - selenium.click("id=menu_leave_addLeaveEntitlement"): null
+
+2021-03-03 17:43:27 - [TEST_STEP][PASSED] - selenium.click("id=entitlements_filters_bulk_assign"): null
+
+2021-03-03 17:43:27 - [TEST_STEP][PASSED] - selenium.click("id=entitlements_filters_location"): null
+
+2021-03-03 17:43:28 - [TEST_STEP][PASSED] - selenium.select("id=entitlements_filters_location", "label=regexp:\s+Canadian Regional HQ"): null
+
+2021-03-03 17:43:28 - [TEST_STEP][PASSED] - selenium.click("id=entitlements_filters_location"): null
+
+2021-03-03 17:43:28 - [TEST_STEP][PASSED] - selenium.click("id=entitlements_filters_subunit"): null
+
+2021-03-03 17:43:28 - [TEST_STEP][PASSED] - selenium.select("id=entitlements_filters_subunit", "label=Engineering"): null
+
+2021-03-03 17:43:29 - [TEST_STEP][PASSED] - selenium.click("id=entitlements_filters_subunit"): null
+
+2021-03-03 17:43:29 - [TEST_STEP][PASSED] - selenium.click("id=entitlements_leave_type"): null
+
+2021-03-03 17:43:29 - [TEST_STEP][PASSED] - selenium.select("id=entitlements_leave_type", "label=US - Vacation"): null
+
+2021-03-03 17:43:29 - [TEST_STEP][PASSED] - selenium.click("id=entitlements_leave_type"): null
+
+2021-03-03 17:43:29 - [TEST_STEP][PASSED] - selenium.click("id=period"): null
+
+2021-03-03 17:43:29 - [TEST_STEP][PASSED] - selenium.click("id=period"): null
+
+2021-03-03 17:43:30 - [TEST_STEP][PASSED] - selenium.click("id=entitlements_entitlement"): null
+
+2021-03-03 17:43:30 - [TEST_STEP][PASSED] - selenium.type("id=entitlements_entitlement", "12"): null
+
+2021-03-03 17:43:30 - [TEST_STEP][PASSED] - selenium.click("id=entitlements_entitlement"): null
+
+2021-03-03 17:43:30 - [TEST_STEP][PASSED] - selenium.click("id=btnSave"): null
+
+2021-03-03 17:43:30 - [TEST_STEP][PASSED] - selenium.click("//*[@id="dialogConfirmBtn"]"): null
+
+2021-03-03 17:43:33 - [TEST_STEP][PASSED] - selenium.click("id=menu_leave_assignLeave"): null
+
+2021-03-03 17:43:34 - [TEST_STEP][PASSED] - selenium.click("id=assignleave_txtEmployee_empName"): null
+
+2021-03-03 17:43:35 - [TEST_STEP][PASSED] - selenium.type("id=assignleave_txtEmployee_empName", "Lisa Andrews"): null
+
+2021-03-03 17:43:35 - [TEST_STEP][PASSED] - selenium.click("id=assignleave_txtLeaveType"): null
+
+2021-03-03 17:43:35 - [TEST_STEP][PASSED] - selenium.select("id=assignleave_txtLeaveType", "label=US - Vacation"): null
+
+2021-03-03 17:43:35 - [TEST_STEP][PASSED] - selenium.click("id=assignleave_txtLeaveType"): null
+
+2021-03-03 17:43:35 - [TEST_STEP][PASSED] - selenium.click("//form[@id='frmLeaveApply']/fieldset/ol/li[4]/img"): null
+
+2021-03-03 17:43:36 - [TEST_STEP][PASSED] - selenium.click("link=8"): null
+
+2021-03-03 17:43:36 - [TEST_STEP][PASSED] - selenium.click("//form[@id='frmLeaveApply']/fieldset/ol/li[5]/img"): null
+
+2021-03-03 17:43:37 - [TEST_STEP][PASSED] - selenium.click("link=12"): null
+
+2021-03-03 17:43:38 - [TEST_STEP][PASSED] - selenium.click("id=assignleave_txtComment"): null
+
+2021-03-03 17:43:38 - [TEST_STEP][PASSED] - selenium.type("id=assignleave_txtComment", "Enjoy your vacation Lisa"): null
+
+2021-03-03 17:43:38 - [TEST_STEP][PASSED] - selenium.click("id=assignBtn"): null
+
+2021-03-03 17:43:40 - [TEST_STEP][PASSED] - selenium.click("//a[@id='menu_leave_viewLeaveModule']/b"): null
+
+2021-03-03 17:43:42 - [TEST_STEP][PASSED] - selenium.click("id=menu_leave_viewLeaveList"): null
+
+2021-03-03 17:43:43 - [TEST_STEP][PASSED] - selenium.click("id=leaveList_chkSearchFilter_checkboxgroup_allcheck"): null
+
+2021-03-03 17:43:43 - [TEST_STEP][PASSED] - selenium.click("id=leaveList_txtEmployee_empName"): null
+
+2021-03-03 17:43:44 - [TEST_STEP][PASSED] - selenium.type("id=leaveList_txtEmployee_empName", "Lisa Andrews"): null
+
+2021-03-03 17:43:44 - [TEST_STEP][PASSED] - selenium.click("//form[@id='frmFilterLeave']/fieldset"): null
+
+2021-03-03 17:43:44 - [TEST_STEP][PASSED] - selenium.click("id=btnSearch"): null
+
+2021-03-03 17:43:46 - [TEST_STEP][PASSED] - selenium.click("id=btnReset"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Log Out TC" time="4.889" classname="Test Cases/Log Out TC" status="PASSED">
+         <system-out><![CDATA[2021-03-03 17:43:47 - [TEST_CASE][PASSED] - Test Cases/Log Out TC: Test Cases/Log Out TC
+
+2021-03-03 17:43:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-03-03 17:43:48 - [TEST_STEP][PASSED] - baseUrl = "https://opensource-demo.orangehrmlive.com/": null
+
+2021-03-03 17:43:48 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2021-03-03 17:43:48 - [TEST_STEP][PASSED] - selenium.open("https://opensource-demo.orangehrmlive.com/index.php/dashboard"): null
+
+2021-03-03 17:43:49 - [TEST_STEP][PASSED] - selenium.click("//*[@id="welcome"]"): null
+
+2021-03-03 17:43:50 - [TEST_STEP][PASSED] - selenium.click("//*[@id="welcome-menu"]/ul/li[2]/a"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-03 17:42:14 - [TEST_SUITE][ERROR] - Suite-OrangeHRM: Test Cases/Vacancies TC FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //div[4]/ul/li[4] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Vacancies TC.run(Vacancies TC:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614782523900.run(TempTestSuite1614782523900.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //div[4]/ul/li[4]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-AQB8O6Q', ip: '192.168.226.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1614780595068.run(Script1614780595068.groovy:90)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2021-03-03 17:42:14 - [TEST_SUITE][ERROR] - Suite-OrangeHRM: Test Cases/Vacancies TC FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //div[4]/ul/li[4] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Vacancies TC.run(Vacancies TC:90)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614782523900.run(TempTestSuite1614782523900.groovy:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //div[4]/ul/li[4]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-AQB8O6Q', ip: '192.168.226.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1614780595068.run(Script1614780595068.groovy:90)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

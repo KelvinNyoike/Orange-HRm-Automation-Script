@@ -46,9 +46,8 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern
 import static org.apache.commons.lang3.StringUtils.join
 
-WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
-String baseUrl = "https://www.google.com/"
+String baseUrl = "https://opensource-demo.orangehrmlive.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 selenium.open("https://opensource-demo.orangehrmlive.com/index.php/dashboard")
 selenium.click("//a[@id='menu_pim_viewPimModule']/b")
