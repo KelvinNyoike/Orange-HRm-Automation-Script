@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>View employee list and click on file of one employee and then creat a new employee file.</description>
+   <name>Emp List_Add Emp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3fd4ced-d114-415c-9251-1ea683887669</testCaseGuid>
+</TestCaseEntity>
